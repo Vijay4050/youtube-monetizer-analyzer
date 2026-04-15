@@ -10,7 +10,9 @@ Understand factors influencing ad revenue (ad_revenue_usd)
 Analyze relationships between engagement metrics and revenue
 Perform feature selection to improve model performance
 Prepare data for machine learning models and deployment
+
 🧱 Project Workflow
+
 ✅ Stage 1: Load & Understand Data
 Loaded dataset using Pandas
 Explored structure using:
@@ -45,9 +47,11 @@ Box plots
 watch_time_per_view → Very strong relationship
 engagement_rate → Moderate impact
 Some features → Weak/no correlation
+
 3. Visualization Optimization
 Multiple plots in a single screen
 Improved readability and comparison
+
 ✅ Stage 3: Correlation Analysis (Proof Layer)
 Generated correlation matrix
 Focused on relationship with target variable
@@ -73,12 +77,14 @@ Correlation ≠ causation
 Feature selection is critical
 Strong predictors can dominate models
 Visual validation strengthens statistical analysis
+
 📦 Tech Stack
 Python
 Pandas, NumPy
 Matplotlib, Seaborn
 Scikit-learn
 Streamlit
+
 📁 Project Structure
 youtube-monetization-analyzer/
 │
@@ -95,6 +101,7 @@ youtube-monetization-analyzer/
 │
 ├── requirements.txt
 └── README.md
+
 🔜 Next Steps
 Build models:
 Linear Regression
@@ -105,12 +112,14 @@ MAE
 MSE
 R² Score
 Deploy using Streamlit
+
 📊 Future Enhancements
 Feature engineering
 Outlier handling
 Skewness treatment
 Hyperparameter tuning (GridSearchCV)
 Interactive dashboard
+
 💡 Conclusion
 
 This project establishes a strong foundation for predicting YouTube ad revenue by combining:
